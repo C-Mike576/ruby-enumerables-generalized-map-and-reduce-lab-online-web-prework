@@ -1,6 +1,6 @@
 # Your Code Here
-def map(source_array)
-  source_array.each do |new|
+def map(source_array){block}
+  source_array do |new|
     yield new
   end
 end
