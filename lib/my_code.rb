@@ -2,8 +2,8 @@
 def map(source_array)
   new = []
   i = 0 
-  while i < source_array.length do |opperate|
-    new << source_array[i](opperate)
+  while i < source_array.length do
+    new << source_array[i]
   end
   yield new
 end
