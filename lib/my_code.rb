@@ -2,7 +2,7 @@
 def map(source_array)
   new = []
   source_array.each do |opperate|
-    new << source_array(opperate)
+    new.push (source_array( opperate ))
   end
   p new
 end
