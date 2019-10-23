@@ -1,7 +1,8 @@
 # Your Code Here
 def map(source_array)
   new = []
-  for source_array.length do |opperate|
+  i = 0 
+  while i < source_array.length do |opperate|
     new << source_array(opperate)
   end
   yield new
