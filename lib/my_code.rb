@@ -1,7 +1,7 @@
 # Your Code Here
 def map(source_array)
   new = []
-  self.each do |opperate|
+  source_array.each do |opperate|
     new << source_array(opperate)
   end
   new
