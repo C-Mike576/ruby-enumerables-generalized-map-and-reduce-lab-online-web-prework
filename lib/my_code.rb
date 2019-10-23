@@ -7,7 +7,6 @@ def map(source_array)
     i += 1
   end
   yield new
-  end
 end
 
 def reduce (source_array, starting_point=0)
