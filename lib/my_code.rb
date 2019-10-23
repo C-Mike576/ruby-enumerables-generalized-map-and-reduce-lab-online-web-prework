@@ -1,8 +1,8 @@
 # Your Code Here
-def map(&block)
+def map(source_array)
   new = []
   self.each do |opperate|
-    new << block.call(opperate)
+    new << source_array.call(opperate)
   end
   new
 end
