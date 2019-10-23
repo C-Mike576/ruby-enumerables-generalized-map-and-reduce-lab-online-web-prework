@@ -1,12 +1,6 @@
 # Your Code Here
 def map(source_array)
-  new = []
-  i = 0
-  while i < source_array.length do
-    new.push(source_array[i]) 
-    i += 1
-  end
-  yield (new)
+  yield (source_array)
 end
 
 def reduce (source_array, starting_point=0)
