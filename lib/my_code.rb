@@ -2,7 +2,7 @@
 def map(source_array)
   new = []
   self.each do |opperate|
-    new << source_array.call(opperate)
+    new << source_array(opperate)
   end
   new
 end
