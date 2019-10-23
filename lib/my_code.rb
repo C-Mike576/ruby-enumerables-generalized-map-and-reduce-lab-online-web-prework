@@ -3,7 +3,7 @@ def map(source_array)
   new = []
   i = 0 
   while i < source_array.length do |opperate|
-    new << source_array.each(opperate)
+    new << source_array[i](opperate)
   end
   yield new
 end
