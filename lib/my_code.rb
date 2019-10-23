@@ -1,9 +1,9 @@
 # Your Code Here
-def map(source_array){block}
+def map(source_array)
   new = []
   i = 0
   while i < source_array.length do
-    new.push( block ) 
+    new.push{block} 
     i += 1
   end
   yield new
